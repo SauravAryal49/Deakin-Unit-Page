@@ -16,8 +16,15 @@ p {
   font-family: Arial
 }
 div {
-  background-color: darkcyan;
+  background-image: url('img1.jpg');
+  background-size: cover;
+  background-position: center;
   text-align: right;
+  padding: 40px 30px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 th, td {
 padding: 8px;
